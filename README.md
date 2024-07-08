@@ -29,6 +29,11 @@ If you want to define other binds, you can do so as follows:
 call agda_input#bind_input("st", "≡⟨⟩")
 ```
 
+> [!NOTE]
+>
+> If you're using this in combination with Cornelis, you'll want to disable
+> Cornelis taking over the agda input with `let g:cornelis_no_agda_input=1`.
+
 
 ### Usage
 
